@@ -1,0 +1,26 @@
+body {
+    position: relative;
+}
+
+form {     
+    width: 100%;           /* Set this to your convenience */
+    height: 500%;          /* Set this to your convenience */
+    position: absolute;
+    top: 35%;
+    left: 45%;
+    margin-top: -100px;     /* Half of height */
+    margin-left: -150px;     /* Half of width */
+}
+body{
+/* The image used */
+  background-image: url("https://i.imgur.com/kYW2H5C.jpg");
+
+  /* Full height */
+  height: 100%; 
+  width: 200%
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
